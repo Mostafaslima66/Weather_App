@@ -27,3 +27,6 @@ Weather App is a mobile application built with the Flutter framework. It allows 
 - Dynamic theme color based on weather conditions.
 - Suggestion text for city search.
 - History list to store and revisit searched cities.
+
+## Video
+https://github.com/Mostafaslima66/Weather_App/assets/150176123/8ce37608-2549-41ce-9e0e-c3a7a8e44df6
