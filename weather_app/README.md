@@ -1,16 +1,29 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+Weather App is a mobile application built with the Flutter framework. It allows users to retrieve weather information for a specific city by entering its name. The app displays real-time temperature, maximum and minimum temperature, weather conditions, last update time, and an icon representing the current weather. Additionally, the app features a dynamic theme color, suggestion text for city search, and a history list for easy access to previously searched cities.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+- [Usage](#usage)
+- [Features](#features)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. Open the app.
+
+2. Enter the name of the city in the search bar.
+
+3. View the weather details, including current temperature, max temperature, min temperature, weather conditions, last update time, and an icon representing the weather.
+
+4. Explore the dynamic theme color and suggestion text for city search.
+
+5. Access the history list to easily revisit previously searched cities.
+
+## Features
+
+- Real-time weather information retrieval.
+- Dynamic theme color based on weather conditions.
+- Suggestion text for city search.
+- History list to store and revisit searched cities.
