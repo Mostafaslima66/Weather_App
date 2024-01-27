@@ -7,7 +7,7 @@ Weather App is a mobile application built with the Flutter framework. It allows 
 
 - [Usage](#usage)
 - [Features](#features)
-- [License](#license)
+
 
 ## Usage
 
