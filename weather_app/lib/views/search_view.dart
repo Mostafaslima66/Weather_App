@@ -27,47 +27,6 @@ class searchview extends StatelessWidget {
         ),
         title: const Text('Search a City'),
       ),
-      /*** 
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Autocomplete<String>(
-              optionsBuilder: (TextEditingValue textEditingValue) {
-                if (textEditingValue.text.isEmpty) {
-                  return const Iterable<String>.empty();
-                }
-                return countriesList.where((countryName) {
-                  return countryName.contains(textEditingValue.text);
-                });
-              },
-              
-              onSelected: (countryName) async {
-                var getweathercubit = BlocProvider.of<GetWeatherCubit>(context);
-                getweathercubit.getWeather(value: countryName);
-                
-                // WeatherModel weatherModel = await WeatherService(Dio())
-                //   .getCurrentWeather(cityName: value);
-                Navigator.pop(context);
-              },
-              
-              /*** 
-            decoration: InputDecoration(
-              contentPadding:
-                  const EdgeInsets.symmetric(vertical: 32, horizontal: 16),
-              suffixIcon: const Icon(Icons.search),
-              suffixIconColor: Colors.black,
-              hintText: 'Enter City Name',
-              labelText: 'Search',
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(16),
-                borderSide: const BorderSide(color: Colors.green),
-              ),
-            ),
-            ***/
-             // ),
-       // ),
-      //),
-      ***/
     );
   }
 }
